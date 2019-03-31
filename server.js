@@ -7,8 +7,8 @@ app.use(express.json());
 app.use('/',(req,res)=>{
     res.send("hello to the first project ")
 })
-app.use('/h',(req,res)=>{
-    res.send("hello ")
+app.use('/profile',(req,res)=>{
+    res.send("hello")
 })
 
 
