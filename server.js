@@ -4,7 +4,7 @@ const app=express();
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 
-app.use('/',(req,res)=>{
+app.use('/a',(req,res)=>{
     res.send("hello to the first project ")
 })
 app.use('/profile',(req,res)=>{
