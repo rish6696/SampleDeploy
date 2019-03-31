@@ -7,3 +7,8 @@ app.use(express.json());
 app.use('/',(req,res)=>{
     res.send("hello to the first project ")
 })
+
+const port=process.env.PORT||4444;
+app.listen(port,()=>{
+    console.log('server started');
+})
